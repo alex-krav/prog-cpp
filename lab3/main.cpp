@@ -9,8 +9,8 @@ int main()
 	double x, y, a, b, c;
 	x = y = a = b = c = 0;
 
-	cout << "enter hole dimensions" << endl;
-	cout << "x=?\b"; cin >> x;
+	cout << "enter hole dimensions" << endl; //todo: printf 
+	cout << "x=?\b"; cin >> x; //todo: scanf
 	cout << "y=?\b"; cin >> y;
 
 	cout << "enter brick dimensions" << endl;
